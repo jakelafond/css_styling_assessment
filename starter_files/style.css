@@ -13,9 +13,10 @@ colors:
     dark blue - #046c97
 */
 
-header {
+#site_header {
   background-color: #ff8523;
   padding:40px 10px 40px 10px;
+  margin: 0px;
 }
 #logo {
   background-image: url("img/logo.png");
@@ -26,22 +27,23 @@ header {
   padding-right: 130px;
 }
 .main_navigation{
-  margin:25px 10px 10px 10px;
+  margin:25px 0px 0px 0px;
 }
 .main_navigation a{
   padding: 10px 30px;
-  margin:2px;
   text-decoration: none;
   border: 1px solid white;
   font-weight: bold;
   color: white;
+  margin:0;
 }
 
 body {
   border: solid 1px #ffd24a;
-  margin:0;
+  margin:0px;
   font-family: Helvetica,Arial,sans-serif;
   line-height: 1.6;
+  padding:0px;
 }
 
 h2 {
@@ -62,12 +64,40 @@ thead td {
 }
 td {
   border: solid 1px #1fabe5;
+  padding: 5px;
 }
 td img {
-  padding:5px;
   max-width: 50%;
   max-height: 50%;
 }
 table {
   border-collapse: collapse;
+}
+
+section {
+  margin:10px;
+  border-bottom: 5px solid #dddddd;
+  padding:5px;
+}
+
+.name {
+  background-color:#ff8523;
+  margin:1em;
+  padding:20px;
+  color:white;
+  font-weight:bold;
+}
+input{
+  padding:10px;
+  margin:5px;
+}
+form {
+  background-color:#dddddd;
+  padding:10px;
+}
+#submit_button{
+  background-color: #1fabe5;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
